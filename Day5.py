@@ -1,16 +1,17 @@
-#Tuples 
+# #Tuples 
 # tuple=(1,2,3,4,5,)
 # print(type(tuple))
 # tup=()
 # print(tup)
 # tup=("aiza",)
 # print(type(tup))
-#Tuple methods 
+
+# # Tuple methods 
 # tuple=(10,23,78,90,45,67,33,45,67,90)
 # print(tuple.count(90))
 # print(tuple.index(90))
 
-# Practice Program 
+# # Practice Program 
 # list=[input("Enter your 1st fav movie : "),
 #     input("Enter your 1st fav movie : "),
 #     input("Enter your 1st fav movie : ")]
@@ -35,8 +36,13 @@
 # tuple=("C","D","A","A","B","B","A")
 # print(tuple.count("A"))
 
-list=["C","D","A","A","B","B","A"]
-list.sort()
-print(list)
+# list=["C","D","A","A","B","B","A"]
+# list.sort()
+# print(list)
+
+tuple=(1,2,3,4,5)
+print(type(tuple))
+print(tuple)
+
 
 

@@ -1,33 +1,33 @@
-# #Dictionary
-# dict={
-#     "name":"aiza",
-#     "age":19,
-#     "Degree":"AI",
-#     "city":"FSD",
-#     "Weight":45
-# }
-# print(type(dict))
-# print(dict)
+#Dictionary
+dict={
+    "name":"aiza",
+    "age":19,
+    "Degree":"AI",
+    "city":"FSD",
+    "Weight":45
+}
+print(type(dict))
+print(dict)
 
-# # Accessing the dictionary
-# print(dict["name"])
+# Accessing the dictionary
+print(dict["name"])
 
-# #changing
-# dict["name"]="aiza asif" #override
-# dict["fav_color"]="Black" #add key
+#changing
+dict["name"]="aiza asif" #override
+dict["fav_color"]="Black" #add key
 
-# #Nested Dictionary
-# student={
-#     "name":"aiza asif",
-#     "age":19,
-#     "report_card":{
-#         "eng":92,
-#         "math":80,
-#         "phy":89
-#     }   
-# }
-# # print(student)
-# print(student["report_card"]["math"])
+#Nested Dictionary
+student={
+    "name":"aiza asif",
+    "age":19,
+    "report_card":{
+        "eng":92,
+        "math":80,
+        "phy":89
+    }   
+}
+# print(student)
+print(student["report_card"]["math"])
 
 #Dictionary Methods
 dict={
@@ -37,17 +37,17 @@ dict={
     "city":"FSD",
     "Weight":45
 }
-# print(dict.keys())
-# print(list(dict.keys()))
-# print(dict.values())
-# list=list(dict.values())
-# print(list[0])
-# print(dict.items())
+print(dict.keys())
+print(list(dict.keys()))
+print(dict.values())
+list=list(dict.values())
+print(list[0])
+print(dict.items())
 
-# print(dict.get("name"))
+print(dict.get("name"))
 
-# print(dict.update({"name":"aiza asif","age":20}))
-# print(dict)
+print(dict.update({"name":"aiza asif","age":20}))
+print(dict)
 
 #Create a nested dictionary representing students:
 #Access Sara’s grade.

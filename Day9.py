@@ -22,8 +22,8 @@ if userbook in book_details:
     print("The price of your book is : ",price)
     if price>500:
        discount=price*0.10
-       new_price=price-discount
-       print("Since the price of your book is greater than 500 so you are getting 10 percent discount Now the price of your book after discount is:  ",new_price)
+       newprice=price-discount
+       print("Since the price of your book is greater than 500 so you are getting 10 percent discount Now the price of your book after discount is: git ",newprice)
 else:
     print("Not available")
 

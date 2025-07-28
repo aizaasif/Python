@@ -81,16 +81,23 @@
 # ans=func(5)
 # print(ans)
 
-# print a list using recursive function
-list=[1,2,3,4,5]
-def func(list,index):
-    if(index==len(list)):
-        return
-    print(list[index],end=" ")
-    func(list,index+1)
+# # print a list using recursive function
+# list=[1,2,3,4,5]
+# def func(list,index):
+#     if(index==len(list)):
+#         return
+#     print(list[index],end=" ")
+#     func(list,index+1)
 
-(func(list,0))
-
+# (func(list,0))
+def func(n):
+    if(n==0):
+        return 0
+    if(n==1):
+        return 1
+    return func(n-1)+func(n-2)
+ans=func(6)
+print(ans)
 
     
 

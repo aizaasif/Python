@@ -14,7 +14,6 @@ data={
     }
     }
 
-
 # check balance function
 def check_balance(username):
     print("Your balance is : ",data[username]["balance"])
@@ -25,7 +24,7 @@ def deposit(username):
         data[username]["balance"]=data[username]["balance"]+deposit_amount
         print("----------Amount Deposited Successfully----------")
         print("Your balance after Depositing ",deposit_amount,"is ",data[username]["balance"])
-
+        
 # withdraw Function
 def withdraw(username):  
     withdraw_amount=int(input("Enter Amount you want to withdraw: "))
@@ -75,7 +74,7 @@ def menu(username):
             exiting()
             break   
     i+=1
-
+    
 login()
 
 

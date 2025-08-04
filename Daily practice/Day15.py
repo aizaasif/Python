@@ -34,6 +34,22 @@ f=open("E:\\Python\\Daily practice\\Day1.py")
 data=f.read()
 print(data)
 
+f=open("C:\\Users\\MS\\Desktop\\File.txt","a")
+data=f.write("\nappend")
+print(data)
+
+# With syntax
+with open("C:\\Users\\MS\\Desktop\\File.txt","a") as f:
+    f.write("\nI have appended")
+
+# removing a file
+import os
+os.remove("C:\\Users\\MS\\Desktop\\File.txt")
+
+    
+
+
+
 
 
 

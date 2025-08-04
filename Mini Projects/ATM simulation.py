@@ -14,6 +14,8 @@ data={
     }
     }
 
+
+
 # check balance function
 def check_balance(username):
     print("Your balance is : ",data[username]["balance"])

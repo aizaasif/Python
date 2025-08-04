@@ -27,6 +27,8 @@ def Menu():
     print("     4.Margherita-------Price-->1200")
     print("     5.Pepperoni--------Price-->1500")
 
+
+
 # Order Function
 def order():
     pizzaname=input("Enter the name of the pizza you want to order : ")

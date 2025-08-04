@@ -13,3 +13,27 @@ f=open("E:\\Python\\Daily practice\\text.txt","r")
 data=f.read()
 print(data)
 f.close()
+
+# Read a single line
+f=open("C:\\Users\\MS\\Desktop\\File.txt")
+data=f.read()
+print(data)
+line1=f.readline()
+line2=f.readline()
+line3=f.readline()
+print(line1)
+print(line2)
+print(line3)
+
+f=open("C:\\Users\\MS\\Desktop\\File.txt","w")
+data=f.write("My name is aiza asif\nI am 19 years old")
+print(data)
+
+#We can also read a python File
+f=open("E:\\Python\\Daily practice\\Day1.py")
+data=f.read()
+print(data)
+
+
+
+

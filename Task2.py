@@ -25,4 +25,20 @@ elif(marks>=50 and marks<=53.9):
     print("Your Grade is D ")
 else:
     print("Your Grade is F ")
-    
+
+# Task 9: User will enter his weight in Kilograms and height in meters (1 M=3.23 Feet). Calculate the BMI of the user and display following: 
+
+weight=int(input("Enter your weught in Kilometers : "))
+Height=int(input("Enter your height in Meters : "))
+H2=(Height*Height)
+BMI=(weight/H2)
+print("Your BMI is : ",BMI)    
+if(BMI<18.5):
+    print("You are underweigt")
+if(BMI>=18.5 and BMI<=24.9):
+    print("You are Normal")
+if(BMI>=25 and BMI<=29.9):
+    print("You are Overweight")
+if(BMI>30):
+    print("You are Obese")
+

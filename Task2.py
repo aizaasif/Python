@@ -44,11 +44,62 @@
 
 # Task 10: Write a program to display "NTU" if a number entered by user is a multiple of five , otherwise print "DCS".
 
-no=int(input("Enter a number : "))
-if(no%5==0):
-    print("NTU")
-else:
-    print("DCS")
+# no=int(input("Enter a number : "))
+# if(no%5==0):
+#     print("NTU")
+# else:
+#     print("DCS")
+
+# Task 11: Write a program to check whether the last digit of a number (entered by user) is divisible by 3 or not.
+
+# no=int(input("Enter a number must contains more than 1 digit : "))
+# last=no%10
+# if(last%3==0):
+#     print(f"Number {last} is divisible by 3")
+# else:
+#     print(f"Number {last} is not divisible by 3")
+
+# Task 12: Implement a currency converter which ask the user to enter value in Pak Rupees and convert in following: 
+
+value=int(input("Enter a value in PKR :"))
+print("1.Australian Dollar")
+print("2.China Yuan")
+print("3.Euro")
+print("4.Qatri Riyal")
+print("5.Saudi Riyal")
+print("6.UAE Dirham")
+print("7.UK pound")
+print("8.Us Dollar")
+choice=int(input("Enter your choice, only enter number "))
+if (choice==1):
+    AD=value/102.6
+    print(f"{value} PKR = {AD} Australian Dollar")
+elif (choice==2):
+    CY=value/22
+    print(f"{value} PKR = {CY} China Yuan")
+elif (choice==3):
+    E=value/168.15
+    print(f"{value} PKR = {E} Euro")
+elif (choice==4):
+    QR=value/42.2
+    print(f"{value} PKR = {QR} Qatri Riyal")
+elif (choice==5):
+    SR=value/40.95
+    print(f"{value} PKR = {SR} Saudi Riyal")
+elif (choice==6):
+    UAED=value/42.2
+    print(f"{value} PKR = {UAED} UAE Dirham")
+elif (choice==7):
+    UKP=value/198.15
+    print(f"{value} PKR = {UKP} UK Pound")
+elif (choice==8):
+    USD=value/154
+    print(f"{value} PKR = {USD} US Dollar")
+
+
+
+
+
 
 
 
